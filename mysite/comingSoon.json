@@ -1,0 +1,790 @@
+[{
+	"date": "October 16 ",
+	"movies": [{
+		"countries": ["USA",
+		"Australia"],
+		"directors": [{
+			"name": "Rob Letterman",
+			"nameId": "nm1224299"
+		}],
+		"filmingLocations": ["Conyers",
+		"Georgia",
+		"USA"],
+		"genres": ["Action",
+		"Adventure",
+		"Comedy",
+		"Fantasy",
+		"Horror"],
+		"idIMDB": "tt1051904",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "Upset about moving from a big city to a small town, teenager Zach Cooper (Dylan Minnette) finds a silver lining when he meets the beautiful girl, Hannah (Odeya Rush), living right next door. But every silver lining has a cloud, and Zach's comes when he learns that Hannah has a mysterious dad who is revealed to be R. L. Stine (Jack Black), the author of the bestselling Goosebumps series. It turns out that there is a reason why Stine is so strange... he is a prisoner of his own imagination - the monsters that his books made famous are real, and Stine protects his readers by keeping them locked up in their books. When Zach unintentionally unleashes the monsters from their manuscripts and they begin to terrorize the town, it's suddenly up to Stine, Zach, and Hannah to get all of them back in the books where they belong.",
+		"rated": "PG",
+		"rating": "7.0",
+		"releaseDate": "20151016",
+		"runtime": ["103 min"],
+		"simplePlot": "A teenager teams up with the daughter of young adult horror author R.L. Stine after the writer's imaginary demons are set free on the town of Greendale, Maryland.",
+		"title": "Goosebumps",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt1051904",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjA1OTUzNTQ5Ml5BMl5BanBnXkFtZTgwODQ4NDkxNjE@._V1_SX214_AL_.jpg",
+		"votes": "122",
+		"writers": [{
+			"name": "Darren Lemke",
+			"nameId": "nm0501359"
+		},
+		{
+			"name": "Scott Alexander",
+			"nameId": "nm0018735"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["Australia",
+		"USA"],
+		"directors": [{
+			"name": "James Vanderbilt",
+			"nameId": "nm0888743"
+		}],
+		"filmingLocations": ["Sydney",
+		"New South Wales",
+		"Australia"],
+		"genres": ["Biography",
+		"Drama"],
+		"idIMDB": "tt3859076",
+		"languages": ["English"],
+		"metascore": "74/100",
+		"originalTitle": "",
+		"plot": "The story of The Killian Documents controversy (a.k.a. \"Rathergate\") in the days leading up to the 2004 presidential election. When veteran newscaster Dan Rather and CBS News head Mary Mapes choose to air a segment on 60 Minutes falsely accusing President Bush of avoiding being drafted to Vietnam through his father's political advantages, the resulting fallout ultimately costs them their jobs and reputations.",
+		"rated": "R",
+		"rating": "5.5",
+		"releaseDate": "20151016",
+		"runtime": ["121 min"],
+		"simplePlot": "Newsroom drama detailing the 2004 CBS 60 Minutes report investigating then-President George W. Bush's military service, and the subsequent firestorm of criticism that cost anchor Dan Rather and producer Mary Mapes their careers.",
+		"title": "Truth",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3859076",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMzkxNjU2MzMzOF5BMl5BanBnXkFtZTgwOTA3Mjg4NjE@._V1_SY317_CR0,0,214,317_AL_.jpg",
+		"votes": "189",
+		"writers": [{
+			"name": "James Vanderbilt",
+			"nameId": "nm0888743"
+		},
+		{
+			"name": "Mary Mapes",
+			"nameId": "nm3200062"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA",
+		"Japan"],
+		"directors": [{
+			"name": "Colin Hanks",
+			"nameId": "nm0004988"
+		}],
+		"filmingLocations": [],
+		"genres": ["Documentary",
+		"History",
+		"Music"],
+		"idIMDB": "tt3272570",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "Established in 1960, Tower Records was once a retail powerhouse with two hundred stores, in thirty countries, on five continents. From humble beginnings in a small-town drugstore, Tower Records eventually became the heart and soul of the music world, and a powerful force in the music industry. In 1999, Tower Records made $1 billion. In 2006, the company filed for bankruptcy. What went wrong? Everyone thinks they know what killed Tower Records: The Internet. But that's not the story. \"All Things Must Pass\" is a feature documentary film examining this iconic company's explosive trajectory, tragic demise, and legacy forged by its rebellious founder Russ Solomon.",
+		"rated": "",
+		"rating": "7.5",
+		"releaseDate": "20151016",
+		"runtime": ["94 min"],
+		"simplePlot": "'All Things Must Pass' is a documentary that explores the rise and fall of Tower Records, and its legacy forged by its rebellious founder, Russ Solomon.",
+		"title": "All Things Must Pass: The Rise and Fall of Tower Records",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3272570",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTY1MDA5ODM4M15BMl5BanBnXkFtZTgwMDIzMTc2MDE@._V1_SY317_CR13,0,214,317_AL_.jpg",
+		"votes": "37",
+		"writers": [{
+			"name": "Steven Leckart",
+			"nameId": "nm6026697"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Steven Spielberg",
+			"nameId": "nm0000229"
+		}],
+		"filmingLocations": ["Glienicker Brücke",
+		"Potsdam",
+		"Germany"],
+		"genres": ["Drama",
+		"Thriller"],
+		"idIMDB": "tt3682448",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "An American lawyer is recruited by the CIA during the Cold War to help rescue a pilot detained in the Soviet Union.",
+		"rated": "PG-13",
+		"rating": "8.9",
+		"releaseDate": "20151016",
+		"runtime": ["135 min"],
+		"simplePlot": "An American lawyer is recruited by the CIA during the Cold War to help rescue a pilot detained in the Soviet Union.",
+		"title": "Bridge of Spies",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3682448",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjIxOTI0MjU5NV5BMl5BanBnXkFtZTgwNzM4OTk4NTE@._V1_SX214_AL_.jpg",
+		"votes": "248",
+		"writers": [{
+			"name": "Matt Charman",
+			"nameId": "nm4131020"
+		},
+		{
+			"name": "Ethan Coen",
+			"nameId": "nm0001053"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Guillermo del Toro",
+			"nameId": "nm0868219"
+		}],
+		"filmingLocations": ["Pinewood Toronto Studios",
+		"Port Lands",
+		"Toronto",
+		"Ontario",
+		"Canada"],
+		"genres": ["Drama",
+		"Fantasy",
+		"Horror",
+		"Mystery",
+		"Romance",
+		"Thriller"],
+		"idIMDB": "tt2554274",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "Edith Cushing is running away from a childhood trauma. She is now torn between her childhood friend, Dr. Alan McMichael, and a mysterious stranger, Sir Thomas Sharpe. She marries Thomas and comes to live with him and his sister, Lady Lucille Sharpe. She starts to find out that the Sharpe's home bleeds, breathes, and remembers and that it is filled with spirits.",
+		"rated": "R",
+		"rating": "8.7",
+		"releaseDate": "20151016",
+		"runtime": ["119 min"],
+		"simplePlot": "In the aftermath of a family tragedy, an aspiring author is torn between love for her childhood friend and the temptation of a mysterious outsider. Trying to escape the ghosts of her past, she is swept away to a house that breathes, bleeds...and remembers.",
+		"title": "Crimson Peak",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt2554274",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BNTY2OTI5MjAyOV5BMl5BanBnXkFtZTgwNTkzMjQ0NDE@._V1_SX214_AL_.jpg",
+		"votes": "343",
+		"writers": [{
+			"name": "Guillermo del Toro",
+			"nameId": "nm0868219"
+		},
+		{
+			"name": "Matthew Robbins",
+			"nameId": "nm0730422"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Andrew Erwin",
+			"nameId": "nm3401779"
+		},
+		{
+			"name": "Jon Erwin",
+			"nameId": "nm2296528"
+		}],
+		"filmingLocations": ["Birmingham",
+		"Alabama",
+		"USA"],
+		"genres": ["Drama"],
+		"idIMDB": "tt4183692",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "A gifted high school football player must learn to embrace his talent and his faith as he battles racial tensions on and off the field.",
+		"rated": "PG",
+		"rating": "",
+		"releaseDate": "20151016",
+		"runtime": [],
+		"simplePlot": "A gifted high school football player must learn to embrace his talent and his faith as he battles racial tensions on and off the field.",
+		"title": "Woodlawn",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt4183692",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTA0ODM5MTM5MTleQTJeQWpwZ15BbWU4MDAwNzk1NDYx._V1_SY317_CR8,0,214,317_AL_.jpg",
+		"votes": "",
+		"writers": [{
+			"name": "Jon Erwin",
+			"nameId": "nm2296528"
+		},
+		{
+			"name": "Quinton Peeples",
+			"nameId": "nm0670266"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA",
+		"Canada"],
+		"directors": [{
+			"name": "Avi Lewis",
+			"nameId": "nm1726688"
+		}],
+		"filmingLocations": ["Germany"],
+		"genres": ["Documentary"],
+		"idIMDB": "tt1870548",
+		"languages": ["English"],
+		"metascore": "59/100",
+		"originalTitle": "",
+		"plot": "What if confronting the climate crisis is the best chance we'll ever get to build a better world? Filmed over 211 shoot days in nine countries and five continents over four years, This Changes Everything is an epic attempt to re-imagine the vast challenge of climate change. The film presents seven portraits of communities on the front lines, from Montana's Powder River Basin to the Alberta Tar Sands, from the coast of South India to Beijing and beyond. Interwoven with these stories of struggle is Naomi Klein's narration, connecting the carbon in the air with the economic system that put it there. Throughout the film, Klein builds to her most controversial and exciting idea: that we can seize the existential crisis of climate change to transform our failed economic system into something radically better.",
+		"rated": "",
+		"rating": "7.5",
+		"releaseDate": "2015",
+		"runtime": ["89 min"],
+		"simplePlot": "A look at seven communities around the world with the proposition that we can seize the crisis of climate change to transform our failed economic system into something radically better.",
+		"title": "This Changes Everything",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt1870548",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTk3NDMxNzczOV5BMl5BanBnXkFtZTgwNjYzOTE3NjE@._V1_SX214_AL_.jpg",
+		"votes": "33",
+		"writers": [{
+			"name": "Naomi Klein",
+			"nameId": "nm1468859"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["Ireland",
+		"Canada"],
+		"directors": [{
+			"name": "Lenny Abrahamson",
+			"nameId": "nm1049433"
+		}],
+		"filmingLocations": ["Toronto",
+		"Ontario",
+		"Canada"],
+		"genres": ["Drama"],
+		"idIMDB": "tt3170832",
+		"languages": ["English"],
+		"metascore": "74/100",
+		"originalTitle": "",
+		"plot": "ROOM tells the extraordinary story of Jack, a spirited 5-year-old who is looked after by his loving and devoted Ma. Like any good mother, Ma dedicates herself to keeping Jack happy and safe, nurturing him with warmth and love and doing typical things like playing games and telling stories. Their life, however, is anything but typical - they are trapped - confined to a windowless, 10-by-10-foot space, which Ma has euphemistically named \"Room.\" Ma has created a whole universe for Jack within Room, and she will stop at nothing to ensure that, even in this treacherous environment, Jack is able to live a complete and fulfilling life. But as Jack's curiosity about their situation grows, and Ma's resilience reaches its breaking point, they enact a risky plan to escape, ultimately bringing them face-to-face with what may turn out to be the scariest thing yet: the real world.",
+		"rated": "R",
+		"rating": "7.4",
+		"releaseDate": "20151016",
+		"runtime": ["118 min"],
+		"simplePlot": "After 5-year old Jack and his Ma escape from the enclosed surroundings that Jack has known his entire life, the boy makes a thrilling discovery: the outside world.",
+		"title": "Room",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3170832",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjE4NzgzNzEwMl5BMl5BanBnXkFtZTgwMTMzMDE0NjE@._V1_SX214_AL_.jpg",
+		"votes": "605",
+		"writers": [{
+			"name": "Emma Donoghue",
+			"nameId": "nm1480980"
+		},
+		{
+			"name": "Emma Donoghue",
+			"nameId": "nm1480980"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["South Africa",
+		"USA"],
+		"directors": [{
+			"name": "Stephen S. Campanelli",
+			"nameId": "nm0132120"
+		}],
+		"filmingLocations": ["Cape Town",
+		"South Africa"],
+		"genres": ["Action",
+		"Thriller"],
+		"idIMDB": "tt3181776",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "Alex, a mysterious thief, is pulled in by her former partner for one last heist. She quickly finds it was never just about the diamonds. A brutal murder sparks a cat and mouse chase between Alex and a master assassin. Now she must uncover the lies behind the heist and discover the secrets behind the men who have made her a target.",
+		"rated": "",
+		"rating": "6.1",
+		"releaseDate": "20151016",
+		"runtime": ["96 min"],
+		"simplePlot": "Alex, a mysterious thief, is pulled in by her former partner for one last heist. She quickly finds it was never just about the diamonds. A brutal murder sparks a cat and mouse chase between... See full summary »",
+		"title": "Momentum",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3181776",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTAyMzA1NzcyNDleQTJeQWpwZ15BbWU4MDk3MzQ3ODYx._V1_SX214_AL_.jpg",
+		"votes": "130",
+		"writers": [{
+			"name": "Adam Marcus",
+			"nameId": "nm0546057"
+		},
+		{
+			"name": "Debra Sullivan",
+			"nameId": "nm0838032"
+		}],
+		"year": "2015"
+	}]
+},
+{
+	"date": "October 23 ",
+	"movies": [{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Gregory Plotkin",
+			"nameId": "nm0687427"
+		}],
+		"filmingLocations": [],
+		"genres": ["Horror"],
+		"idIMDB": "tt2473510",
+		"languages": ["English",
+		"German"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "The Ghost Dimension, follows a new family, The Fleeges - father Ryan (Chris J. Murray), mother Emily (Brit Shaw) and their young daughter Leila (Ivy George) - Who move into a house and discover a video camera and a box of tapes in the garage. When they look through the camera's lens, they begin to see the paranormal activity happening around them - including the re-emergence of young Kristi and Katie.",
+		"rated": "R",
+		"rating": "",
+		"releaseDate": "20151023",
+		"runtime": ["95 min"],
+		"simplePlot": "Using a special camera that can see spirits, a family must protect their daughter from an evil entity with a sinister plan.",
+		"title": "Paranormal Activity: The Ghost Dimension",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt2473510",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjQxMjE5OTA3OF5BMl5BanBnXkFtZTgwMDAxNTg4NjE@._V1_SX214_AL_.jpg",
+		"votes": "",
+		"writers": [{
+			"name": "Jason Pagan",
+			"nameId": "nm3091255"
+		},
+		{
+			"name": "Andrew Deutschman",
+			"nameId": "nm2065670"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Jon M. Chu",
+			"nameId": "nm0160840"
+		}],
+		"filmingLocations": ["Van Nuys",
+		"Los Angeles",
+		"California",
+		"USA"],
+		"genres": ["Adventure",
+		"Drama",
+		"Fantasy",
+		"Music"],
+		"idIMDB": "tt3614530",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "As a small-town girl catapults from underground video sensation to global superstar, she and her three sisters begin a journey of discovering that some talents are too special to keep hidden.",
+		"rated": "PG",
+		"rating": "",
+		"releaseDate": "20151023",
+		"runtime": [],
+		"simplePlot": "As a small-town girl catapults from underground video sensation to global superstar, she and her three sisters begin a journey of discovering that some talents are too special to keep hidden.",
+		"title": "Jem and the Holograms",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3614530",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjIxMDI1MTI2M15BMl5BanBnXkFtZTgwODYzODc2NTE@._V1_SX214_AL_.jpg",
+		"votes": "",
+		"writers": [{
+			"name": "Ryan Landels",
+			"nameId": "nm1293285"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Breck Eisner",
+			"nameId": "nm0252135"
+		}],
+		"filmingLocations": ["Pittsburgh",
+		"Pennsylvania",
+		"USA"],
+		"genres": ["Action",
+		"Adventure",
+		"Fantasy"],
+		"idIMDB": "tt1618442",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "The modern world holds many secrets, but the most astounding secret of all is that witches still live amongst us; vicious supernatural creatures intent on unleashing the Black Death upon the world. Armies of witch hunters battled the unnatural enemy across the globe for centuries, including KAULDER, a valiant warrior who managed to slay the all-powerful QUEEN WITCH, decimating her followers in the process. In the moments right before her death, the QUEEN curses KAULDER with her own immortality, forever separating him from his beloved wife and daughter in the afterlife. Today KAULDER is the only one of his kind remaining, and has spent centuries hunting down rogue witches, all the while yearning for his long-lost loved ones. However, unbeknownst to KAULDER, the QUEEN WITCH is resurrected and seeks revenge on her killer causing an epic battle that will determine the survival of the human race.",
+		"rated": "PG-13",
+		"rating": "",
+		"releaseDate": "20151023",
+		"runtime": ["106 min"],
+		"simplePlot": "The last witch hunter is all that stands between humanity and the combined forces of the most horrifying witches in history.",
+		"title": "The Last Witch Hunter",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt1618442",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjM5Njk5MzYzM15BMl5BanBnXkFtZTgwNzM1Mjk4NjE@._V1_SX214_AL_.jpg",
+		"votes": "",
+		"writers": [{
+			"name": "Cory Goodman",
+			"nameId": "nm2309430"
+		},
+		{
+			"name": "Matt Sazama",
+			"nameId": "nm1948885"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Danny Boyle",
+			"nameId": "nm0000965"
+		}],
+		"filmingLocations": ["San Francisco",
+		"California",
+		"USA"],
+		"genres": ["Biography",
+		"Drama"],
+		"idIMDB": "tt2080374",
+		"languages": ["English"],
+		"metascore": "84/100",
+		"originalTitle": "",
+		"plot": "His passion and ingenuity have been the driving force behind the digital age. However his drive to revolutionize technology was sacrificial. Ultimately it affected his family life and possibly his health. In this revealing film we explore the trials and triumphs of a modern day genius, the late CEO of Apple inc. Steven Paul Jobs.",
+		"rated": "R",
+		"rating": "6.5",
+		"releaseDate": "20151023",
+		"runtime": ["122 min"],
+		"simplePlot": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint a portrait of the man at its epicenter.",
+		"title": "Steve Jobs",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt2080374",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjE0NTA2MTEwOV5BMl5BanBnXkFtZTgwNzg4NzU2NjE@._V1_SX214_AL_.jpg",
+		"votes": "1,414",
+		"writers": [{
+			"name": "Aaron Sorkin",
+			"nameId": "nm0815070"
+		},
+		{
+			"name": "Walter Isaacson",
+			"nameId": "nm0410596"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Barry Levinson",
+			"nameId": "nm0001469"
+		}],
+		"filmingLocations": [],
+		"genres": ["Comedy",
+		"Music"],
+		"idIMDB": "tt3164256",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "A down-on-his-luck music manager discovers a teenage girl with an extraordinary voice while on a music tour in Afghanistan and takes her to Kabul to compete on the popular television show, Afghan Star.",
+		"rated": "R",
+		"rating": "",
+		"releaseDate": "20151023",
+		"runtime": [],
+		"simplePlot": "A down-on-his-luck music manager discovers a teenage girl with an extraordinary voice while on a music tour in Afghanistan and takes her to Kabul to compete on the popular television show, Afghan Star.",
+		"title": "Rock the Kasbah",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3164256",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTcyOTIyMTE1Nl5BMl5BanBnXkFtZTgwNzk2OTU5NTE@._V1_SX214_AL_.jpg",
+		"votes": "",
+		"writers": [{
+			"name": "Mitch Glazer",
+			"nameId": "nm0322248"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["UK",
+		"France"],
+		"directors": [{
+			"name": "Sarah Gavron",
+			"nameId": "nm0310673"
+		}],
+		"filmingLocations": ["Chatham",
+		"Kent",
+		"England",
+		"UK"],
+		"genres": ["Drama"],
+		"idIMDB": "tt3077214",
+		"languages": ["English"],
+		"metascore": "65/100",
+		"originalTitle": "",
+		"plot": "A drama that tracks the story of the foot soldiers of the early feminist movement, women who were forced underground to pursue a dangerous game of cat and mouse with an increasingly brutal State. These women were not primarily from the genteel educated classes, they were working women who had seen peaceful protest achieve nothing. Radicalized and turning to violence as the only route to change, they were willing to lose everything in their fight for equality - their jobs, their homes, their children and their lives. Maud was one such foot soldier. The story of her fight for dignity is as gripping and visceral as any thriller, it is also heart-breaking and inspirational.",
+		"rated": "PG-13",
+		"rating": "5.6",
+		"releaseDate": "20151023",
+		"runtime": ["106 min"],
+		"simplePlot": "The foot soldiers of the early feminist movement, women who were forced underground to pursue a dangerous game of cat and mouse with an increasingly brutal State.",
+		"title": "Suffragette",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3077214",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMjA2NDYxOTI1MV5BMl5BanBnXkFtZTgwOTgyMjU3NjE@._V1_SX214_AL_.jpg",
+		"votes": "680",
+		"writers": [{
+			"name": "Abi Morgan",
+			"nameId": "nm0604448"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Adam Salky",
+			"nameId": "nm1270069"
+		}],
+		"filmingLocations": ["Broadway Tavern - 8 Broadway",
+		"Malverne",
+		"New York",
+		"USA"],
+		"genres": ["Drama"],
+		"idIMDB": "tt3640682",
+		"languages": ["English"],
+		"metascore": "60/100",
+		"originalTitle": "",
+		"plot": "Laney Brooks does bad things. Married with kids, she takes the drugs she wants, sleeps with the men she wants, disappears when she wants. Now, with the destruction of her family looming, and temptation everywhere, Laney makes one last desperate attempt at redemption.",
+		"rated": "R",
+		"rating": "6.2",
+		"releaseDate": "20151023",
+		"runtime": ["85 min"],
+		"simplePlot": "Laney Brooks does bad things. Married with kids, she takes the drugs she wants, sleeps with the men she wants, disappears when she wants. Now, with the destruction of her family looming, ... See full summary »",
+		"title": "I Smile Back",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3640682",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTg3NDY2NTg0OV5BMl5BanBnXkFtZTgwMTMwNjc3NjE@._V1_SX214_AL_.jpg",
+		"votes": "251",
+		"writers": [{
+			"name": "Paige Dylan",
+			"nameId": "nm0245891"
+		},
+		{
+			"name": "Paige Dylan",
+			"nameId": "nm0245891"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "John Wells",
+			"nameId": "nm0920274"
+		}],
+		"filmingLocations": ["Blythe House",
+		"23 Blythe Road",
+		"West Kensington",
+		"London",
+		"England",
+		"UK"],
+		"genres": ["Comedy",
+		"Drama"],
+		"idIMDB": "tt2503944",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "Chef Adam Jones () had it all - and lost it. A two-star Michelin rockstar with the bad habits to match, the former enfant terrible of the Paris restaurant scene did everything different every time out, and only ever cared about the thrill of creating explosions of taste. To land his own kitchen and that third elusive Michelin star though, he'll need the best of the best on his side, including the beautiful Helene ().",
+		"rated": "",
+		"rating": "8.5",
+		"releaseDate": "20151023",
+		"runtime": [],
+		"simplePlot": "Adam Jones is a Chef who destroyed his career with drugs and diva behavior. He cleans up and returns to London, determined to redeem himself by spearheading a top restaurant that can gain three Michelin stars.",
+		"title": "Burnt",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt2503944",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BNjEzNTk2OTEwNF5BMl5BanBnXkFtZTgwNzExMTg0NjE@._V1_SX214_AL_.jpg",
+		"votes": "27",
+		"writers": [{
+			"name": "Steven Knight",
+			"nameId": "nm1140275"
+		},
+		{
+			"name": "Michael Kalesniko",
+			"nameId": "nm0435701"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["Ethiopia",
+		"USA"],
+		"directors": [{
+			"name": "Zeresenay Mehari",
+			"nameId": "nm1877993"
+		}],
+		"filmingLocations": ["Ethiopia"],
+		"genres": ["Drama"],
+		"idIMDB": "tt2611390",
+		"languages": ["Amharic"],
+		"metascore": "58/100",
+		"originalTitle": "",
+		"plot": "Three hours outside of Addis Ababa, a bright 14-year-old girl is on her way home from school when men on horses swoop in and kidnap her. The brave Hirut grabs a rifle and tries to escape, but ends up shooting her would-be husband. In her village, the practice of abduction into marriage is common and one of Ethiopia's oldest traditions. Meaza Ashenafi, an empowered and tenacious young lawyer, arrives from the city to represent Hirut and argue that she acted in self-defense. Meaza boldly embarks on a collision course between enforcing civil authority and abiding by customary law, risking the continuing work of her women's legal-aid practice to save Hirut's life.",
+		"rated": "U",
+		"rating": "6.6",
+		"releaseDate": "20150708",
+		"runtime": ["99 min"],
+		"simplePlot": "A young lawyer travels to an Ethiopian village to represent Hirut, a 14-year-old girl who shot her would-be husband as he and others were practicing one of the nation's oldest traditions: abduction into marriage.",
+		"title": "Difret",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt2611390",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTYxNzQ0OTU2MV5BMl5BanBnXkFtZTgwMTg5MzI4NjE@._V1_SX214_AL_.jpg",
+		"votes": "399",
+		"writers": [{
+			"name": "Zeresenay Mehari",
+			"nameId": "nm1877993"
+		}],
+		"year": "2014"
+	}]
+},
+{
+	"date": "October 30 ",
+	"movies": [{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Christopher Landon",
+			"nameId": "nm0484907"
+		}],
+		"filmingLocations": ["Santa Clarita",
+		"California",
+		"USA"],
+		"genres": ["Comedy",
+		"Horror"],
+		"idIMDB": "tt1727776",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "Three scouts, on the eve of their last camp-out, discover the true meaning of friendship when they attempt to save their town from a zombie outbreak.",
+		"rated": "R",
+		"rating": "",
+		"releaseDate": "20151030",
+		"runtime": ["93 min"],
+		"simplePlot": "Three scouts, on the eve of their last camp-out, discover the true meaning of friendship when they attempt to save their town from a zombie outbreak.",
+		"title": "Scouts Guide to the Zombie Apocalypse",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt1727776",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTY4NjczNjE4OV5BMl5BanBnXkFtZTgwODk0MjQ5NjE@._V1_SX214_AL_.jpg",
+		"votes": "",
+		"writers": [{
+			"name": "Emi Mochizuki",
+			"nameId": "nm0595088"
+		},
+		{
+			"name": "Carrie Lee Wilson",
+			"nameId": "nm0933144"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "David Gordon Green",
+			"nameId": "nm0337773"
+		}],
+		"filmingLocations": ["Tulane University - 6823 St. Charles Avenue",
+		"New Orleans",
+		"Louisiana",
+		"USA"],
+		"genres": ["Comedy",
+		"Drama"],
+		"idIMDB": "tt1018765",
+		"languages": ["English",
+		"Spanish"],
+		"metascore": "59/100",
+		"originalTitle": "",
+		"plot": "An American woman, well-versed in political campaigns, is sent to the war-torn lands of South America to help install a new leader but is threatened to be thwarted by a long-term rival.",
+		"rated": "R",
+		"rating": "5.8",
+		"releaseDate": "20151030",
+		"runtime": ["108 min"],
+		"simplePlot": "An American woman, well-versed in political campaigns, is sent to the war-torn lands of South America to help install a new leader but is threatened to be thwarted by a long-term rival.",
+		"title": "Our Brand Is Crisis",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt1018765",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTg5MDUwMDQwM15BMl5BanBnXkFtZTgwNTczMjU3NjE@._V1_SX214_AL_.jpg",
+		"votes": "619",
+		"writers": [{
+			"name": "Peter Straughan",
+			"nameId": "nm1661186"
+		},
+		{
+			"name": "Rachel Boynton",
+			"nameId": "nm1354496"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["USA"],
+		"directors": [{
+			"name": "Arthur Muhammad",
+			"nameId": "nm2584377"
+		}],
+		"filmingLocations": ["Dallas",
+		"Texas",
+		"USA"],
+		"genres": ["Drama",
+		"Sport"],
+		"idIMDB": "tt3735398",
+		"languages": ["English"],
+		"metascore": "",
+		"originalTitle": "",
+		"plot": "During the 1980s Carter HS in Dallas, Texas was a football powerhouse. This is the story of 4 of the student Athletes whose off the field activities cost them their future.",
+		"rated": "PG-13",
+		"rating": "",
+		"releaseDate": "20151030",
+		"runtime": [],
+		"simplePlot": "During the 1980s Carter HS in Dallas, Texas was a football powerhouse. This is the story of 4 of the student Athletes whose off the field activities cost them their future.",
+		"title": "Carter High",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3735398",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTUyNDYzODkyNl5BMl5BanBnXkFtZTgwNTA5MjE1NjE@._V1_SX214_AL_.jpg",
+		"votes": "",
+		"writers": [{
+			"name": "Arthur Muhammad",
+			"nameId": "nm2584377"
+		}],
+		"year": "2015"
+	},
+	{
+		"countries": ["Italy",
+		"Switzerland",
+		"Germany"],
+		"directors": [{
+			"name": "Alice Rohrwacher",
+			"nameId": "nm3114621"
+		}],
+		"filmingLocations": ["Sovana",
+		"Sorano",
+		"Grosseto",
+		"Tuscany",
+		"Italy"],
+		"genres": ["Drama"],
+		"idIMDB": "tt3044244",
+		"languages": ["Italian",
+		"French",
+		"German"],
+		"metascore": "75/100",
+		"originalTitle": "Le meraviglie",
+		"plot": "Gelsomina's family functions according to very particular rules. First of all, Gelsomina, at twelve years of age, practically runs the family. Her three younger sisters obey her and work under her watchful eye. But the outside world mustn't know anything about their lifestyle, and they should be kept away from it, well-protected in their isolated countryside home. Gelsomina's father, Wolfgang, is a foreigner and Gelsomina is the future queen of this strange and improbable kingdom he has constructed for them. A male heir would have been better, of course, but Gelsomina is strong and determined and what's more, she has a special talent for beekeeping and making honey. It's Gelsomina that retrieves the swarms from the trees, who organizes the honey extraction, and she is the one that carries the hives. Whilst all around them the countryside is being burnt up by pesticides, rural life is falling apart and becoming something different, a TV show competition arrives from the city offering a...",
+		"rated": "U",
+		"rating": "6.7",
+		"releaseDate": "20151030",
+		"runtime": ["110 min"],
+		"simplePlot": "Nothing will be the same at the end of this summer for Gelsomina and her three younger sisters.",
+		"title": "Les merveilles",
+		"type": "Movie",
+		"urlIMDB": "http://www.imdb.com/title/tt3044244",
+		"urlPoster": "http://ia.media-imdb.com/images/M/MV5BMTk5NDk1OTk3Nl5BMl5BanBnXkFtZTgwODk3ODU3NjE@._V1_SY317_CR1,0,214,317_AL_.jpg",
+		"votes": "1,977",
+		"writers": [{
+			"name": "Alice Rohrwacher",
+			"nameId": "nm3114621"
+		}],
+		"year": "2014"
+	}]
+}]

@@ -1,0 +1,50 @@
+.movie-row{
+	width: 700px;
+	height: 285px;
+	border: lightgrey thin solid;
+	margin-top: 10px;
+	page-break-before: auto;
+	page-break-inside: avoid;
+
+}
+
+.movie-poster{
+	display: inline-block;
+	margin-top: 2px;
+	margin-right: 5px;
+	max-width: 175px;
+	float: left;
+
+}
+
+.movie-poster img{
+	height: auto;
+	width: 214px;
+	max-width: inherit;
+}
+
+.movie-description{
+	vertical-align: top;
+	height: 100%;
+}
+
+.movie-title{
+	text-align: center;
+	font-size: 20px;
+	border-bottom: lightgrey thin solid;
+
+}
+.movie-directors{
+	border-bottom: lightgrey thin solid;
+}
+.movie-rating-stars{
+	display: inline-block;
+}
+.movie-rating{
+	display: inline-block;
+}
+.movie-simple-plot{
+	word-wrap:break-word;
+	text-align: justify;
+	padding-right: 5px;
+}

@@ -1,0 +1,40 @@
+.single-movie-poster{
+	display:inline-block;
+	margin-top:2px;
+	width:220px; 
+	float:left;
+}
+.single-movie-poster{
+	height:auto;
+	width=214px;
+}
+.single-movie-image{
+	display:block;
+}
+.single-movie-description{
+	vertical-align:top;
+}
+.single-movie-title{
+	text-align: center; 
+	font-size:30px; 
+	margin-top:5px;
+}
+.divider{
+	height:1px; 
+	border-top: thin lightgrey solid; 
+	margin-top:5px; 
+	margin-bottom: 5px;
+}
+.single-movie-info > div{
+	margin-top:5px;
+}
+.single-movie-rating{
+	margin-top: 10px;
+}
+.single-movie-plot{
+	word-wrap: break-word;
+	text-align:justify;
+	padding-right:5px; 
+	display:inline-block; 
+	margin-top:5px;
+}
