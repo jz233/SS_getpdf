@@ -127,7 +127,7 @@ class MovieListPage_Controller extends Page_Controller{
 			),
 			array('enable-javascript' => true));
 		
-		/*global $baseDir;
+		/*
 
 		$generator = new WkHtml\Generator(
 		    new \Knp\Snappy\Pdf($baseDir.'/vendor/bin/wkhtmltopdf'),
