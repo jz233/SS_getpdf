@@ -28,6 +28,5 @@
 		
 		$Layout
 	</div>
-
 </body>
 </html>

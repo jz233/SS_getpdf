@@ -2,13 +2,11 @@
 global $baseDir;
 $baseDir = Director::baseFolder();
 
-//define("DOMPDF_ENABLE_HTML5PARSER", false);
-//require_once $baseDir.'/vendor/dompdf/dompdf/dompdf_config.inc.php';
 require_once $baseDir.'\vendor\autoload.php';
 use Knp\Snappy\Pdf;
 
 require_once 'JSONParser.php';
-//use Heyday\SilverStripe\WkHtml;
+
 
 
 
@@ -36,16 +34,17 @@ class MovieListPage_Controller extends Page_Controller{
 	
 	public function init(){
 		parent::init();
-		Requirements::css("{$this->ThemeDir()}/css/jquery.raty.css");
-		Requirements::css("{$this->ThemeDir()}/css/movielist.css");
+
 		Requirements::javascript("{$this->ThemeDir()}/js/jquery.raty.js");
-		Requirements::javascript("{$this->ThemeDir()}/js/star-rating.js");
+		Requirements::css("{$this->ThemeDir()}/css/jquery.raty.css");	
+		Requirements::css("{$this->ThemeDir()}/css/movielist.css");
+		
 
 
 	}
 
 	private static $allowed_actions = array(
-		'doInsert','doGetPdf','MovieSelector'
+		'doInsert','doGetPdf','MovieSelector','doGetIt'
 	);
 
 	public function MovieSelector(){
@@ -71,6 +70,7 @@ class MovieListPage_Controller extends Page_Controller{
 			)
 		);
 
+		//TODO setTemplate
 		//$form->setTemplate('MyCustomField');
 		return $form;
 	}
@@ -82,18 +82,12 @@ class MovieListPage_Controller extends Page_Controller{
 		$result = $this->getMovieList()->byId($data['Movie']);
 	
 		$pdf_creator = new Pdf($baseDir.'\vendor\bin\wkhtmltopdf');
-		// header('Content-Type','application/pdf');
-		// header('Content-Disposition','inline;filename="123.pdf"');	
+		
 		return $pdf_creator->generateFromHtml(
 			$result->renderWith('SingleMovie'),
 			$baseDir.'/pdfs/single-movie.pdf',
 			array('disable-javascript'=>false),true);
-		//,'user-style-sheet'=>$baseDir.'/themes/mytheme/css/singlemovie.css'
-		// echo $pdf_creator->getOutputFromHtml($result->renderWith('SingleMovie'),array('disable-javascript'=>false));
-		//echo $pdf_creator->getOutput($result->renderWith('SingleMovie'));
 		
-
-		//return $result->renderWith('SingleMovie');
 	}
 
 	public function doInsert(){
@@ -127,24 +121,25 @@ class MovieListPage_Controller extends Page_Controller{
 			),
 			array('enable-javascript' => true));
 		
-		/*
+		
+	}
 
-		$generator = new WkHtml\Generator(
-		    new \Knp\Snappy\Pdf($baseDir.'/vendor/bin/wkhtmltopdf'),
-		    new \Heyday\SilverStripe\WkHtml\Input\String('<html>HAHAHAHAHA</html>'),
-		    new \Heyday\SilverStripe\WkHtml\Output\Browser('test.pdf', 'application/pdf')
-		);
-		return $generator->process();*/
+	public function doGetIt(SS_HTTPRequest $request){
+		// var_dump($request->params());
+		global $baseDir;
+
+		$result = $this->getMovieList()->byId($request->param('ID'));
+		printf($result);
+
+		$filePath = $baseDir.'/pdfs/movie-'.$result.'.pdf';
+	
+		$pdf_creator = new Pdf($baseDir.'\vendor\bin\wkhtmltopdf');
 		
 
-		//$pdf_creator = new Pdf($baseDir.'\vendor\bin\wkhtmltopdf');
-		// SS_HTTPRequest.addHeader('Content-Type','application/pdf');
-		// SS_HTTPRequest.addHeader('Content-Disposition','inline;filename="file.pdf"');
-
-		//header('Content-Type: application/pdf');
-		//header('Content-Disposition: inline; filename="file.pdf"');	
-
-		//echo $pdf_creator->generateFromHtml('$base',$baseDir.'/pdf/movie-list.pdf');
+		return $pdf_creator->generateFromHtml(
+			$result->renderWith('SingleMovie'),
+			$filePath,
+			array('disable-javascript'=>false),true);
 	}
 	
 	

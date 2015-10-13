@@ -41,8 +41,10 @@ class Page_Controller extends ContentController {
 		
 		Requirements::javascript("{$this->ThemeDir()}/js/jquery-1.9.1.min.js");
 		Requirements::javascript("{$this->ThemeDir()}/js/bootstrap.min.js");
-		Requirements::javascript("{$this->ThemeDir()}/js/sitevalidator.js");
-
+		//Requirements::javascript("{$this->ThemeDir()}/js/sitevalidator.js");
+		
+		Requirements::javascript("{$this->ThemeDir()}/js/dogetpdf.js");
+		Requirements::javascript("{$this->ThemeDir()}/js/star-rating.js");
 		
 	}
 

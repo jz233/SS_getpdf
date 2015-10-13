@@ -1,11 +1,12 @@
 <!-- CUSTOM TEMPLATE BEGINS-->
 <% base_tag %>
-<% include MyCustomField %>
+<%-- <% include MyCustomField %> --%>
+
 
 <div class="content">
 	<div class="container">
 		<div class="row">
-
+		
 			<div >
 				<% loop $MoviesList %>
 				<div class="movie-row">
@@ -36,6 +37,7 @@
 						<div class="movie-rating">$Rating</div>
 						<p></p>
 						<div class="movie-simple-plot">$SimplePlot</div>
+						<div><button type="button" class="get-pdf" movie-id=$ID >Get it</button></div>
 					</div>
 				</div>
 				<% end_loop %>
@@ -43,4 +45,6 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript" src="{$ThemeDir}/js/dogetpdf.js"></script>
+
 <!-- CUSTOM TEMPLATE ENDS-->
