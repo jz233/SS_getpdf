@@ -1,0 +1,47 @@
+#map {
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.right-float-box {
+	padding:20px;
+	transform: translate3d(100%, 0, 0);
+	transition-duration: 250ms;
+	transition-timing-function: linear;
+	transition-property:all;
+	position:fixed;
+	top:0;
+	left:auto;
+	right:0;
+	width:100%;
+	bottom:0;
+	max-width: 35rem;
+	z-index:300;
+	background-color: #005b98;
+}
+
+.opened {
+	transform: translate3d(0,0,0); 
+	
+}
+
+.right-float-box > div> span{
+	color: #FFFFFF;
+}
+
+.header-box {
+	position:absolute;
+	top: 2rem;
+	left: 2rem;
+	z-index: 30;
+	width: 2rem;
+	height: 2rem;
+}
+.header-box a{
+	width:inherit;
+	height: inherit;
+}
+.header-box img{
+	width:inherit;
+	height: inherit;
+}

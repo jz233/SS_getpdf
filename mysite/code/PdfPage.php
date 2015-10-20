@@ -51,16 +51,14 @@ class PDFPage_Controller extends Page_Controller{
 		global $baseDir;
 		
 		$website = $data['Website'];
-
 		
 		$pdf_creator = new Pdf($baseDir.'\vendor\bin\wkhtmltopdf');
 		
 		header('Content-Type: application/pdf');
 		header('Content-Disposition: inline; filename="file.pdf"');
 		echo $pdf_creator->getOutput($website);
-		
-		
-        return $this->redirectBack();	
+				
+                return $this->redirectBack();	
 		
 	}
 	

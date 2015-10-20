@@ -129,9 +129,9 @@ class MovieListPage_Controller extends Page_Controller{
 		global $baseDir;
 
 		$result = $this->getMovieList()->byId($request->param('ID'));
-		printf($result);
+		printf($result->ID);
 
-		$filePath = $baseDir.'/pdfs/movie-'.$result.'.pdf';
+		$filePath = $baseDir.'/pdfs/movie-'.$result->ID.'.pdf';
 	
 		$pdf_creator = new Pdf($baseDir.'\vendor\bin\wkhtmltopdf');
 		

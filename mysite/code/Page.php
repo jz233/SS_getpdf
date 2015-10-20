@@ -37,7 +37,7 @@ class Page_Controller extends ContentController {
 		Requirements::css("{$this->ThemeDir()}/css/buttonstyle.css");
 		Requirements::css("{$this->ThemeDir()}/css/navbar.css");
 		Requirements::css("{$this->ThemeDir()}/css/mainlayout.css");
-		
+//		Requirements::css("{$this->ThemeDir()}/css/transition.css");
 		
 		Requirements::javascript("{$this->ThemeDir()}/js/jquery-1.9.1.min.js");
 		Requirements::javascript("{$this->ThemeDir()}/js/bootstrap.min.js");

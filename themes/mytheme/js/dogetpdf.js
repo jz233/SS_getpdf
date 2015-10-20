@@ -7,7 +7,7 @@ $('.get-pdf').click(
 			method:'GET',
 			success: function(){
 				//TODO change pdf's name
-				$('[movie-id = '+ movie_id +']').parent().append("<a href='pdfs/movie-Movie.pdf'>Link</a>");
+				$('[movie-id = '+ movie_id +']').parent().append("<a href='pdfs/movie-"+ movie_id +".pdf'>Link</a>");
 				alert('success');
 			}
 

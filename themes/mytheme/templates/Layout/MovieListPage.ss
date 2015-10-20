@@ -25,7 +25,7 @@
 						</div>
 						</p>
 						<p>
-						<div class="movie-directors"><span><b>Director: </b>&nbsp;</span>$Directors</div>
+						<div class="movie-directors"><span><b>Director: </b>&nbsp;$Directors</span></div>
 						</p>
 						<div class="movie-rating-stars" stars-count=$Rating>
 							<span>
@@ -34,9 +34,9 @@
 							</script>
 							</span>
 						</div>
-						<div class="movie-rating">$Rating</div>
+						<div class="movie-rating"><span>$Rating</span></div>
 						<p></p>
-						<div class="movie-simple-plot">$SimplePlot</div>
+						<div class="movie-simple-plot"><span>$SimplePlot</span></div>
 						<div><button type="button" class="get-pdf" movie-id=$ID >Get it</button></div>
 					</div>
 				</div>

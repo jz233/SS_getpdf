@@ -6,7 +6,8 @@
 }
 .single-movie-poster{
 	height:auto;
-	width=214px;
+	width:214px;
+        margin-right: 5px;
 }
 .single-movie-image{
 	display:block;
@@ -27,6 +28,7 @@
 }
 .single-movie-info > div{
 	margin-top:5px;
+     
 }
 .single-movie-rating{
 	margin-top: 10px;
@@ -37,4 +39,7 @@
 	padding-right:5px; 
 	display:inline-block; 
 	margin-top:5px;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
 }
