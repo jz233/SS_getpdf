@@ -1,5 +1,14 @@
 var map;
 var markers = [];
+
+//function CustomOverLay(position, map, args, property){
+//    this.position = position;
+//    this.args = args;
+//    this.property = property;
+//    //this.setMap(map);    
+//}
+//CustomOverLay.prototype = new google.maps.OverlayView();
+
 function initMap() {
     
     var styles = [
@@ -51,11 +60,6 @@ function initMap() {
     });
     
 }
-//function doGetProperties(){
-//    google.maps.event.addListener(map,'idle',function(){
-//        doAjax(getRangeArray(map.getBounds()));
-//    });
-//}
 function getRangeArray(bounds){
     var range_start = bounds.getNorthEast();
     var range_end = bounds.getSouthWest();
@@ -100,9 +104,18 @@ function setMarker(property){
           position: new google.maps.LatLng(parseFloat(property.Latitude), parseFloat(property.Longitude)),
           flat: true,
           anchor: RichMarkerPosition.MIDDLE,
-          content: '<div><img src="themes/mytheme/images/house.png" style="width:3rem;" /></div>'
+          content: '<img src="themes/mytheme/images/house.png" style="width:3rem;" />'
     });
-    google.maps.event.addListener(marker, 'click', function(event){
+    var position = new google.maps.LatLng(parseFloat(property.Latitude), parseFloat(property.Longitude));
+//    var marker = new CustomOverLay(
+//            position, 
+//            map, 
+//            {
+//                marker_id: '123'
+//            }
+//    );
+    
+    marker.addListener('click', function(event){
          $('.right-float-box').addClass('opened');
          //marker.setAnimation(google.maps.Animation.BOUNCE);
          $('.right-float-box').bind('click', function(){
@@ -110,17 +123,69 @@ function setMarker(property){
                 if(float_box.hasClass('opened')){
                     float_box.removeClass('opened');
                 }
-//                if(marker.getAnimation() !== null){
-//                    marker.setAnimation(null);
-//                }
+                //Animation needed???
          });
          setDrawerData(property);
     });
+    
     markers.push(marker);
 
 }
 
-
+//CustomOverLay.prototype.draw = function(){
+//    
+//    var div = this.div;
+//    if(!div){
+//        div = this.div = document.createElement('div');
+//	
+//        div.className = 'marker';
+//        div.style.position = 'absolute';
+//        div.style.cursor = 'pointer';
+//        div.style.width = '3rem';
+//        div.style.height = '3rem';
+//
+//        //custom img attached to the <div>
+//        var img = document.createElement('img');
+//        img.src = 'themes/mytheme/images/house.png';
+//        img.style.width = '3rem';
+//        div.appendChild(img);
+//        
+//        if (typeof(this.args.marker_id) !== 'undefined') {
+//            div.dataset.marker_id = this.args.marker_id;
+//        }
+//        google.maps.event.addDomListener(div, "click", function(event) {			
+//            google.maps.event.trigger(this, "click");
+//            
+//        });
+//        this.getPanes().overlayImage.appendChild(div);
+//    }
+//    
+//    var point = this.getProjection().fromLatLngToDivPixel(this.position);
+//    if (point) {
+//            div.style.left = point.x + 'px';
+//            div.style.top = point.y + 'px';
+//    }
+//    
+//};
+//CustomOverLay.prototype.remove = function() {
+//    if (this.div) {
+//            this.div.parentNode.removeChild(this.div);
+//            this.div = null;
+//    }	
+//};
+//
+//function handleClick(property){
+//    $('.right-float-box').addClass('opened');
+//         //marker.setAnimation(google.maps.Animation.BOUNCE);
+//    $('.right-float-box').bind('click', function(){
+//           var float_box = $('.right-float-box');
+//           if(float_box.hasClass('opened')){
+//               float_box.removeClass('opened');
+//           }
+//           //Animation needed???
+//    });
+//    setDrawerData(property);
+//}
 
 function setAllMarkers(map){
     for (var i = 0; i < markers.length; i++) {
