@@ -37,12 +37,14 @@ class Page_Controller extends ContentController {
 		Requirements::css("{$this->ThemeDir()}/css/buttonstyle.css");
 		Requirements::css("{$this->ThemeDir()}/css/navbar.css");
 		Requirements::css("{$this->ThemeDir()}/css/mainlayout.css");
+		Requirements::css("{$this->ThemeDir()}/css/icons.css");
+		Requirements::css("{$this->ThemeDir()}/css/animation.css");
+                
 //		Requirements::css("{$this->ThemeDir()}/css/transition.css");
 		
+                
 		Requirements::javascript("{$this->ThemeDir()}/js/jquery-1.9.1.min.js");
 		Requirements::javascript("{$this->ThemeDir()}/js/bootstrap.min.js");
-		//Requirements::javascript("{$this->ThemeDir()}/js/sitevalidator.js");
-		
 		Requirements::javascript("{$this->ThemeDir()}/js/dogetpdf.js");
 		Requirements::javascript("{$this->ThemeDir()}/js/star-rating.js");
 		

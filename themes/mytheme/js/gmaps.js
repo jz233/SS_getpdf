@@ -55,9 +55,10 @@ function initMap() {
     google.maps.event.addListener(map,'idle',function(){
         doAjax(getRangeArray(map.getBounds()));
     });
-    google.maps.event.addListener(map,'zoom_changed',function(){
-        doAjax(getRangeArray(map.getBounds()));
-    });
+//    only 'idle' provides better UX
+//    google.maps.event.addListener(map,'zoom_changed',function(){
+//        doAjax(getRangeArray(map.getBounds()));
+//    });
     
 }
 function getRangeArray(bounds){
@@ -68,6 +69,7 @@ function getRangeArray(bounds){
 }
 
 function doAjax(range){
+    $('.page-icon-container').css('display','inline-block');
     $.ajax({
         url: 'map-view/doGetProperties',
         method: 'GET',
@@ -197,6 +199,7 @@ function clearMarkers() {
 }
 function showMarkers() {
     setAllMarkers(map);
+    $('.page-icon-container').css('display','none');
 }
 function deleteMarkers() {
     clearMarkers();

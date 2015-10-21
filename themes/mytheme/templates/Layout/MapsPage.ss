@@ -8,6 +8,7 @@
             <div><span class="property-livingroomcount"></span></div>
             <div><span class="property-bathroomcount"></span></div>
         </div>
+        <div class="page-icon-container"><i class="page-icon icon-spin6 animate-spin">&#xe801;</i></div>
 </div>
 
 
